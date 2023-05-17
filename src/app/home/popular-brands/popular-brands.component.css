@@ -1,0 +1,127 @@
+.popular-container{
+    padding-top: 100px;
+    padding-left: 24vw;
+    display: flex;
+    flex-direction: column;
+    height: 613px;
+    background-image: url("src/assets/images/home/popular-brands-background.png");
+background-position: center;
+background-size: contain;
+}
+#main-row1{
+    transition: 0.3s linear;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 0 #00000035;
+    width: 65%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.card-item{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.text-column{
+    margin-left: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.divider{
+    width: 100%;
+    border: 1px solid #EDEDED;
+}
+#title{
+    margin-bottom: 30px;
+    color: #4C4C4C;
+    font-family: "Open Sans";
+  font-size: 53px;
+  text-shadow: 0 0 9px 0 #FFFFFF;
+}
+#subtitle{
+    margin-bottom: 30px;
+    color: #4C4C4C;
+  font-family: "Open Sans" ;
+  font-size: 18px;
+  letter-spacing: 0.58px;
+}
+#card-title{
+    color: #223136;
+    font-family: "Open Sans" ;
+    font-size: 27px;
+    font-weight: 600;
+}
+#card-subtitle{
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+}
+#card-content{
+    color: #6A6A6A;
+    font-family: "Open Sans";
+    font-size: 13px;
+    letter-spacing: 0;
+width: 400px;
+}
+.button-row{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-between;
+}
+#all-button{
+    height: 20px;
+    background-color: transparent;
+    border: 0px;
+    color: #F67E03;
+  font-family: "Open Sans" ;
+  font-size: 16px;
+  font-weight: 600;
+}
+.button-item2{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.arrow-button1{
+    font-size: 30px;
+    background-color: transparent;
+    box-shadow: 1px 2px 11px 0 rgba(198,188,188,0.17);
+    flex-grow: 1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    border: 0px;
+    border-right: 1px solid rgba(125, 125, 125, 0.532);
+}
+.arrow-button2{
+    font-size: 30px;
+    border-left:1px solid rgba(125, 125, 125, 0.532);
+    border: 0px;
+    background-color: white;
+    box-shadow: 1px 2px 11px 0 rgba(198,188,188,0.17);
+    flex-grow: 1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#main-row2{
+    transition: 0.3s linear;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 0 #00000035;
+    height: 170px;
+    width: 65%;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
